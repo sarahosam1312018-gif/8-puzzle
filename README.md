@@ -9,26 +9,26 @@ UCS (Uniform Cost Search)
 
 A* Search with Manhattan Distance heuristic
 
-Project Structure
+# Project Structure
+```bash
 8-puzzle/
 ├─ src/
 │  ├─ bfs_8puzzle.py
 │  ├─ IDS.py
 │  ├─ ucs_8puzzle.py
 │  └─ 8-puzzle_using_A_star.py
+```
+# Requirements
 
-Requirements
+ Python 3.7 or higher
 
-Python 3.7 or higher
-
-How to Run
+# How to Run
 
 Open a terminal in the project root folder and run any algorithm file directly:
 
+```bash
 python src/bfs_8puzzle.py
 python src/IDS.py
 python src/ucs_8puzzle.py
 python src/8-puzzle_using_A_star.py
 
-
-Each file runs the corresponding algorithm and prints the solution steps and number of moves.
